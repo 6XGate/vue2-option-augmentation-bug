@@ -4,7 +4,8 @@ import { defineComponent } from 'vue';
 
 const HomeView = defineComponent({
   name: 'HomeView',
-  components: { TheWelcome }
+  components: { TheWelcome },
+  funcOption: route => String(route)
 })
 
 export default HomeView

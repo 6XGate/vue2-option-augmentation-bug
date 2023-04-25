@@ -5,7 +5,8 @@ const HelloWorld = defineComponent({
   name: 'HelloWorld',
   props: {
     msg: String
-  }
+  },
+  dataOption: { x: 5, y: 100 }
 })
 
 export default HelloWorld
